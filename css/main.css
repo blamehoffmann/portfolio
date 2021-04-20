@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.site-block {
+  /*display: flex;*/
+  margin: 0 auto 20px;
+  background: #f6f6f6;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px 0px #cfcfcf;
+}
+.site-img-block {
+  /*width: 30%;*/
+  padding: 20px;
+}
+.site-img {
+  border-radius: 20px;
+}
+.site-info-block {
+  /*width: 70%;*/
+  padding: 20px;
+}
+.site-name {
+  margin: 0 auto 20px;
+  font-size: 24px;
+}
+.site-url {
+  margin: 0 auto 15px;
+  font-style: italic;
+}
+.sushi {
+  color: #80b934;
+}
+.scorpion {
+  color: #606060;
+}
+.deep-sea-green {
+  color: #0a5045;
+}
+.flamingo {
+  color: #f56a3f;
+}
+.cerulean {
+  color: #00aeef;
+}
+.sunglow {
+  color: #fdd32f;
+}
+.astronaut {
+  color: #2d3783;
+}
+.guardsman-red {
+  color: #c00c00;
+}
+.site-desc p {
+  margin: 0 auto 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .site-block {
+    display: flex;
+  }
+  .site-img-block {
+    width: 30%;
+  }
+  .site-info-block {
+    width: 70%;
+  }
+}
